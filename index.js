@@ -9,6 +9,7 @@ var util = require("util");
 var modules = {};
 var ready = false;
 
+
 process.on("uncaughtException", function (err) {
 	console.log("Dapp system error", {message: err.message, stack: err.stack});
 });
